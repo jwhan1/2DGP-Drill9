@@ -7,7 +7,7 @@ from pico2d import load_image
 
 class Grass:
     def __init__(self,depth):
-        self.image = load_image('Labs/Lecture10_Character_Controller_1/grass.png')
+        self.image = load_image('grass.png')
         self.y = 90
         if depth == 0:
             self.y = 50

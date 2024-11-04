@@ -24,7 +24,7 @@ class Boy:
         self.dir = 0
         self.action = 3
 
-        self.image = load_image('Labs/Lecture10_Character_Controller_1/animation_sheet.png')
+        self.image = load_image('animation_sheet.png')
         self.state_machine = StateMachine(self) # 소년 객체를 위한 상태 머신인지 알려줄 필요
 
         self.state_machine.start(Idle) # 첫 상태 집어넣기
